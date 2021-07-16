@@ -1,14 +1,32 @@
+@media (max-width :575px){
+    .log-reg{
+        
+        transform: translateX(-45%);
+        
+        
+    }
+}
 /*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { 
-    
+@media (min-width: 576px) and (max-width: 767px){ 
+    .log-reg{
+        
+        
+        transform: translateX(-45%);
+        
+        
+    }
  }
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { 
-    
+@media (min-width: 768px) and (max-width: 991px){ 
+    .log-reg{
+        
+        
+        transform: translateX(-45%);
+    }
 }
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) { 
+@media (min-width: 992px) and (max-width: 1199px){ 
     .navbar-nav.navbar-center {
         position: absolute;
         left: 30%;
@@ -27,7 +45,7 @@
  }
 
 /*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) 
+@media (min-width: 1200px) and (max-width: 2559px)
 { 
     .navbar-nav.navbar-center {
         position: absolute;
