@@ -14,7 +14,9 @@
     padding: 50px;
 }
 #trn{
-    background:transparent !important;
+    background-color: #F6EFE9;
+    opacity: 0.7;
+   /* background:transparent !important;*/
     z-index: 99;
 }
 #myCarousel{
