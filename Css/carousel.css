@@ -1,18 +1,39 @@
 .carousel-item{
-    height: 32rem;
+    height: 40rem;
     background: #777;
-    color: white;
+    
     position: relative;
     background-position: center;
-    background-size: cover;
+    background-size:cover;
 }
+
 .container{
     position: absolute;
     bottom: 0;
     left: 0;
-    right: 0;
     padding: 50px;
 }
+
+.first{
+    color: #5C6065;
+    
+}
+.second{
+    color: white;
+}
+.third{
+    color: #5C6065;
+}
+.first >.container{
+    right: -100%;
+}
+.second >.container{
+    right: -100%;
+}
+.third >.container{
+    right: -100%;
+}
+
 #trn{
     background-color: #50575D;
     opacity: 0.8;
@@ -21,4 +42,8 @@
 }
 #myCarousel{
     margin-top: -83px;
+    
 }
+
+
+  
