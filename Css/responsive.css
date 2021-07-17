@@ -1,14 +1,56 @@
 @media (max-width :575px){
-    
+    .log-reg{
+        position: center;
+    }
+    .first >.container{
+        right: -10%;
+        top: 15%;
+    }
+    .second >.container{
+        right: -10%;
+        top: 15%;
+    }
+    .third >.container{
+        right: -10%;
+        top: 15%;
+    }
 }
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767px){ 
-    
+    .log-reg{
+        position: center;
+    }
+    .first >.container{
+        right: -100%;
+        top: 15%;
+    }
+    .second >.container{
+        right: -100%;
+        top: 15%;
+    }
+    .third >.container{
+        right: -100%;
+        top: 15%;
+    }
  }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991px){ 
-    
+    .log-reg{
+        position: center;
+    }
+    .first >.container{
+        right: -100%;
+        top: 15%;
+    }
+    .second >.container{
+        right: 0;
+        top: 15%;
+    }
+    .third >.container{
+        right: -100%;
+        top: 15%;
+    }
 }
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199px){ 
@@ -26,6 +68,18 @@
         position: absolute;
         right: 0;
         transform: translatex(0);
+    }
+    .first >.container{
+        right: -100%;
+        top: 15%;
+    }
+    .second >.container{
+        right: 0;
+        top: 15%;
+    }
+    .third >.container{
+        right: -100%;
+        top: 15%;
     }
  }
 
@@ -47,7 +101,19 @@
         right: 5%;
         transform: translatex(5%);
     }
- 
+    
+    .first >.container{
+        right: -100%;
+        top: 15%;
+    }
+    .second >.container{
+        right: 0;
+        top: 15%;
+    }
+    .third >.container{
+        right: -100%;
+        top: 15%;
+    }
 }
 
 @media (min-width : 2560px)
@@ -66,5 +132,17 @@
         position: absolute;
         right: 5%;
         transform: translatex(5%);
+    }
+    .first >.container{
+        right: -100%;
+        top: 15%;
+    }
+    .second >.container{
+        right: 0;
+        top: 15%;
+    }
+    .third >.container{
+        right: -100%;
+        top: 15%;
     }
 }
