@@ -5,6 +5,7 @@
             Avicenne Landing Page
         </title>
         <link rel="stylesheet" href="layout.css">
+        <link rel="stylesheet" href="carousel.css">
         <link rel="stylesheet" href="responsive.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -18,9 +19,9 @@
     <body>
         
             <!--Main Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-              <a class="navbar-brand" href="#">
-                <img src="Logo.jpg" alt="Brand Image" class="img-thumbnail" style="border :2px solid #343A40; position: relative; transform:translateX(20%);left: 20%;">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" id="trn">
+              <a class="navbar-brand" href="#" style="border :2px solid #343A40; position: relative; transform:translateX(30%);">
+                <img src="Logo.jpg" alt="Brand Image" class="img-thumbnail">
               </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -75,7 +76,44 @@
                 
               </div>
             </nav>
-    
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active" style="background-image: url(back-t1.jpg);">
+                  <div class="container">
+                    <h1>Headline Here1</h1>
+                    <p>Paragraph Here1</p>
+                    <a href="#" class="btn btn-lg btn-primary">Button maybe1</a>
+                  </div>
+                </div>
+
+                <div class="carousel-item " style="background-image: url(back-t2.jpg);" >
+                  <div class="container">
+                    <h1>Headline Here2</h1>
+                    <p>Paragraph Here2</p>
+                    <a href="#" class="btn btn-lg btn-primary">Button maybe2</a>
+                  </div>
+                </div>
+
+                <div class="carousel-item " style="background-image: url(back-t3.jpg);">
+                  <div class="container">
+                    <h1>Headline Here3</h1>
+                    <p>Paragraph Here3</p>
+                    <a href="#" class="btn btn-lg btn-primary">Button maybe3</a>
+                  </div>
+                </div>
+              </div>
+              <a href="#myCarousel" class="carousel-control-prev " role="button" data-slide="prev">
+                <span class="sr-only">Previous</span><span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              </a>
+              <a href="#myCarousel" class="carousel-control-next " role="button" data-slide="next">
+                <span class="sr-only">next</span><span class="carousel-control-next-icon" aria-hidden="true"></span>
+              </a>
+            </div>
 
     </body>
 </html>

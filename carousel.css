@@ -1,0 +1,22 @@
+.carousel-item{
+    height: 32rem;
+    background: #777;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 50px;
+}
+#trn{
+    background:transparent !important;
+    z-index: 99;
+}
+#myCarousel{
+    margin-top: -83px;
+}
