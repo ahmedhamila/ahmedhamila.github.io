@@ -14,6 +14,9 @@
         right: -10%;
         top: 15%;
     }
+    .grid{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767px){ 
@@ -31,6 +34,9 @@
     .third >.container{
         right: -100%;
         top: 15%;
+    }
+    .grid{
+        grid-template-columns: repeat(1,1fr);
     }
  }
 
@@ -50,6 +56,9 @@
     .third >.container{
         right: -100%;
         top: 15%;
+    }
+    .grid{
+        grid-template-columns: repeat(2,1fr);
     }
 }
 /*Large devices (desktops, 992px and up)*/
@@ -80,6 +89,9 @@
     .third >.container{
         right: -100%;
         top: 15%;
+    }
+    .grid{
+        grid-gap: 5vw;
     }
  }
 
