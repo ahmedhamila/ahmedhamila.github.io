@@ -65,8 +65,8 @@
 @media (min-width: 992px) and (max-width: 1199px){ 
     .navbar-nav.navbar-center {
         position: absolute;
-        left: 30%;
-        transform: translatex(-30%);
+        left: 26%;
+        transform: translatex(-26%);
     }
     .form-inline{
         position: absolute;

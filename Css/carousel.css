@@ -7,7 +7,7 @@
     background-size:cover;
 }
 
-.container{
+.container.car{
     position: absolute;
     bottom: 0;
     left: 0;

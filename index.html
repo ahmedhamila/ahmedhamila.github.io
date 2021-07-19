@@ -7,46 +7,17 @@
         <link rel="stylesheet" href="Css/layout.css">
         <link rel="stylesheet" href="Css/grid.css">
         <link rel="stylesheet" href="Css/carousel.css">
+        <link rel="stylesheet" href="Css/footer.css">
         <link rel="stylesheet" href="Css/responsive.css">
+        <link rel="stylesheet" href="Css/scroll-nav.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="Js/scroll-nav.js"></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-        <style>
-          body {
-            margin: 0;
-            background-color: #f1f1f1;
-            font-family: Arial, Helvetica, sans-serif;
-          }
-          
-          #navbar {
-            background-color: #333;
-            position: fixed;
-            top: -50px;
-            width: 100%;
-            display: block;
-            transition: top 0.3s;
-            z-index: 100;
-          }
-          
-          #navbar a {
-            float: left;
-            display: block;
-            color: #f2f2f2;
-            text-align: center;
-            padding: 15px;
-            text-decoration: none;
-            font-size: 17px;
-          }
-          
-          #navbar a:hover {
-            background-color: #ddd;
-            color: black;
-          }
-          </style>
     </head>
     <body>
       <div id="navbar">
@@ -54,18 +25,8 @@
         <a href="#news">News</a>
         <a href="#contact">Contact</a>
       </div>
-      <script>
-        window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("navbar").style.top = "-5px";
-  } else {
-    document.getElementById("navbar").style.top = "-50px";
-  }
-}
-      </script>
             <!--Main Navigation-->
+            <!--Navbar-->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="trn">
               <a class="navbar-brand" href="#" style=" position: relative; transform:translateX(30%);">
                 <img src="Images/Logo.jpg" alt="Brand Image">
@@ -123,7 +84,9 @@ function scrollFunction() {
                 
               </div>
             </nav>
-            
+            <!--//Navbar-->
+            <div class="page-wrapper">
+            <!--Carousel-->
             <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -132,7 +95,7 @@ function scrollFunction() {
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active first" style="background-image: url(Images/back-t1.jpg);">
-                  <div class="container">
+                  <div class="container car">
                     <h1>Headline Here1</h1>
                     <p>Paragraph Here1</p>
                     <a href="#" class="btn btn-lg btn-primary">Button maybe1</a>
@@ -140,7 +103,7 @@ function scrollFunction() {
                 </div>
 
                 <div class="carousel-item second" style="background-image: url(Images/back-t2.jpg);">
-                  <div class="container">
+                  <div class="container car">
                     <h1>Headline Here2</h1>
                     <p>Paragraph Here2</p>
                     <a href="#" class="btn btn-lg btn-primary">Button maybe2</a>
@@ -148,7 +111,7 @@ function scrollFunction() {
                 </div>
 
                 <div class="carousel-item third" style="background-image: url(Images/back-t3.jpg);">
-                  <div class="container">
+                  <div class="container car">
                     <h1>Headline Here3</h1>
                     <p>Paragraph Here3</p>
                     <a href="#" class="btn btn-lg btn-primary">Button maybe3</a>
@@ -162,6 +125,10 @@ function scrollFunction() {
                 <span class="sr-only">next</span><span class="carousel-control-next-icon" aria-hidden="true"></span>
               </a>
             </div>
+            <!--//Carousel-->
+            <!--Categories-->
+            <br>
+            <h3 style="text-align: center; background: white;">Categories</h3>
             <div class="container-fluid">
               <main class="grid">
                 <article>
@@ -190,9 +157,47 @@ function scrollFunction() {
                     <button>Button 3</button>
                   </div>
                 </article>
+
+                <article>
+                  <img src="Images/test2.jpg" alt "">
+                  <div class="text">
+                    <h3>Card 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non fugiat consequatur repellendus aliquam suscipit distinctio amet officiis odit accusantium soluta, sint possimus. Quasi ipsam asperiores quam ad dicta iste alias.</p>
+                    <button>Button 3</button>
+                  </div>
+                </article>
               </main>
             </div>
-            
+            <!--//Categories-->
+          </div>
+           <!--Footer--> 
+           <div class="footer">
+             <div class="footer-content">
+               <div class="footer-section about">
+                  <h1 class="logo-text">Avicenne</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, eum. Hic quaerat, illo architecto dolor velit sed? Sed tenetur repudiandae a fuga eveniet reprehenderit earum vitae sunt, vel alias dolorem.</p>
+                </div>
+               <div class="footer-section contact-details">
+                  <h2>Contact</h2>
+                  <br>
+                  <div class="contacts">
+                    <span><i class="fas fa-phone"></i> &nbsp;73 291 073</span>
+                    <span><i class="fas fa-envelope"></i> &nbsp;soussi.mounira@gmail.com</span>
+                  </div>
+                  <div class="socials">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                  </div>
+               </div>
+             </div>
+             <div class="footer-bottom">
+                &copy; Designed By H.Ahmed
+              </div>
+           </div> 
 
+           <!--//Footer-->
+        <!--//Main Navigation-->
     </body>
 </html>
