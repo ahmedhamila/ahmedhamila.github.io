@@ -1,7 +1,12 @@
 .container-fluid{
-    background: white;
+    background: #fff;
     display: flex;
     justify-content: center;
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto;
+      width: 100%;
   }
   .grid
   {
@@ -35,6 +40,7 @@
   }
   .text
   {
+     color: black;
      padding: 0 20px 20px;
   }
   .text h3{
