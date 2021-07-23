@@ -164,7 +164,7 @@
     }
     .grid{
         grid-template-columns: repeat(4,1fr);
-        grid-gap: 1vw;
+        grid-gap: 3vw;
     }
 }
 @media (min-width: 1901px) and (max-width: 2559px)
@@ -199,7 +199,7 @@
     }
     .grid{
         grid-template-columns: repeat(4,1fr);
-        grid-gap: 3.5vw;
+        grid-gap: 8vw;
     }
 }
 

@@ -37,7 +37,11 @@
 #trn{
     background-color: #50575D;
     opacity: 0.8;
-   /* background:transparent !important;*/
+    /* background:transparent !important;*/
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
     z-index: 99;
 }
 #myCarousel{
