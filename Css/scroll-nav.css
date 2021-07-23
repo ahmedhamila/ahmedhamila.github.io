@@ -4,14 +4,13 @@ body {
   }
   
   #navbar {
-    background-color: #595C61;
+    background-color: #585C61;
     position: fixed;
     top: -50px;
     width: 100%;
     display: block;
     transition: top 0.3s;
     z-index: 100;
-    opacity: 0.8;
   }
   
   #navbar a {
