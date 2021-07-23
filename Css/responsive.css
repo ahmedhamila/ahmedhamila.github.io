@@ -91,12 +91,13 @@
         top: 15%;
     }
     .grid{
-        grid-gap: 5vw;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 12.5vw;
     }
  }
 
 /*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) and (max-width: 2559px)
+@media (min-width: 1200px) and (max-width: 1350px)
 { 
     .navbar-nav.navbar-center {
         position: absolute;
@@ -125,6 +126,80 @@
     .third >.container{
         right: -100%;
         top: 15%;
+    }
+    .grid{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 15vw;
+    }
+}
+@media (min-width: 1351px) and (max-width: 1900px)
+{ 
+    .navbar-nav.navbar-center {
+        position: absolute;
+        left: 45%;
+        transform: translatex(-45%);
+    }
+    .form-inline{
+        position: absolute;
+        left: 80%;
+        transform: translatex(-85%);
+    }
+    .log-reg{
+        position: absolute;
+        right: 5%;
+        transform: translatex(5%);
+    }
+    
+    .first >.container{
+        right: -100%;
+        top: 15%;
+    }
+    .second >.container{
+        right: 0;
+        top: 15%;
+    }
+    .third >.container{
+        right: -100%;
+        top: 15%;
+    }
+    .grid{
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 1vw;
+    }
+}
+@media (min-width: 1901px) and (max-width: 2559px)
+{ 
+    .navbar-nav.navbar-center {
+        position: absolute;
+        left: 45%;
+        transform: translatex(-45%);
+    }
+    .form-inline{
+        position: absolute;
+        left: 80%;
+        transform: translatex(-85%);
+    }
+    .log-reg{
+        position: absolute;
+        right: 5%;
+        transform: translatex(5%);
+    }
+    
+    .first >.container{
+        right: -100%;
+        top: 15%;
+    }
+    .second >.container{
+        right: 0;
+        top: 15%;
+    }
+    .third >.container{
+        right: -100%;
+        top: 15%;
+    }
+    .grid{
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 3.5vw;
     }
 }
 
@@ -156,5 +231,8 @@
     .third >.container{
         right: -100%;
         top: 15%;
+    }
+    .grid{
+        grid-gap: 12.5vw;
     }
 }
